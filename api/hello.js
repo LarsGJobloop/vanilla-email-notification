@@ -3,5 +3,5 @@ export const config = {
 };
 
 export function GET() {
-  return "Hello World!"
+  return new Response("Hello World!")
 }
