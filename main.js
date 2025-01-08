@@ -1,2 +1,3 @@
 const response = await fetch("/api/hello")
-console.log(response.body)
+const data = await response.json()
+console.log(data)
