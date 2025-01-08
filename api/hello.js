@@ -7,7 +7,7 @@ export function GET() {
 
   resend.emails.send({
     from: "Lars <contact@resend.dev>",
-    to: "Larsien973spam@gmail.com",
+    to: "lars.gunnar@jobloop.no",
     subject: "Contact wanted message",
     html: `
       <h1>Message from somebody</h1>
