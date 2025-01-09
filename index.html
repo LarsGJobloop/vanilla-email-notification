@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vanilla Email Notification</title>
-  <script type="module" src="main.js"></script>
-</head>
-<body>
-  <h1>Vanilla Email Notification</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla Email Notification</title>
+    <script type="module" src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Vanilla Email Notification</h1>
+    </header>
+
+    <main>
+      <form id="contact-form">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+
+        <label for="message">Message</label>
+        <input type="text" name="message" id="message" />
+
+        <button type="submit">Send Message</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>Kodehode</p>
+    </footer>
+  </body>
 </html>
